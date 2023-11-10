@@ -1,2 +1,16 @@
-# nasuni-awsopensearch-public
-This repo is Nasuni's OpenSource solution to provision AWS OpenSearch automatically using Terraform to provide a secure, high-quality search and analytics suite. 
+Terraform Scripts to provision ElasticSearch in AWS for Nasuni_ElasticSearch Integration Project.
+
+Description
+Using Terraform, Provision ES Cluster for Nasuni in AWS.
+
+terraform init
+
+terraform validate
+
+terraform fmt
+
+terraform plan -var-file=dev.tfvars 
+
+terraform apply -var-file=dev.tfvars -auto-approve
+
+terraform destroy -var-file=dev.tfvars -auto-approve

@@ -1,0 +1,13 @@
+*.tfvars
+*tfstate*
+*.txt
+*.zip
+*lock*
+.terraform
+*.tfvars
+*.json
+*copy*
+# .gitignore
+*.pem
+*.log
+
